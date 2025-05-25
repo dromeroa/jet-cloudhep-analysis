@@ -13,3 +13,10 @@
 ```cd python```
 
 ```cmsRun MC_ConfFile_cfg.py outputFile=TreeFatjets.root```
+
+
+## Para graficar
+
+```root```
+
+```.L plot_Nsub.C```
