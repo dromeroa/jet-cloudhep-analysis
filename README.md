@@ -5,3 +5,9 @@
 
 
 ```cd MyJetAnalyzer```
+
+## Para correr el codigo
+
+```scram b```
+```cd python```
+```cmsRun MC_ConfFile_cfg.py outputFile=TreeFatjets.root```
