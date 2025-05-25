@@ -20,3 +20,12 @@
 ```root```
 
 ```.L plot_Nsub.C```
+
+
+* Usar un archivo root de MC para correr el programa:
+
+```1377960 0634456A-08C2-E511-A0C1-001E6739722E.root```
+
+ubicado en el drive
+
+
