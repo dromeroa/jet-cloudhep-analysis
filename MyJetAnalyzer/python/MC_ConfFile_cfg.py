@@ -109,7 +109,7 @@ process.slimmedJetsAK8NewJEC = updatedPatJets.clone(
 
 
 #--------- Configura el analizador de fatjets (Aqui se llama a los archivos txt)
-process.myfatjets = cms.EDAnalyzer('FatjetAnalyzer',
+process.myfatjets = cms.EDAnalyzer('MyJetAnalyzer',
                 fatjets = cms.InputTag("slimmedJetsAK8NewJEC"),
                 isData = cms.bool(isData),
                                 jecL2Name = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_'+JecString+'_L2Relative_AK8PFchs.txt'),
