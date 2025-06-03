@@ -112,12 +112,12 @@ process.slimmedJetsAK8NewJEC = updatedPatJets.clone(
 process.myfatjets = cms.EDAnalyzer('FatjetAnalyzer',
                 fatjets = cms.InputTag("slimmedJetsAK8NewJEC"),
                 isData = cms.bool(isData),
-                                jecL2Name = cms.FileInPath('PhysObjectExtractorTool/PhysObjectExtractor/JEC/Fall15_25nsV2_'+JecString+'_L2Relative_AK8PFchs.txt'),
-                                jecL3Name = cms.FileInPath('PhysObjectExtractorTool/PhysObjectExtractor/JEC/Fall15_25nsV2_'+JecString+'_L3Absolute_AK8PFchs.txt'),
-                                jecResName = cms.FileInPath('PhysObjectExtractorTool/PhysObjectExtractor/JEC/Fall15_25nsV2_DATA_L2L3Residual_AK8PFchs.txt'),
-                jetJECUncName = cms.FileInPath('PhysObjectExtractorTool/PhysObjectExtractor/JEC/Fall15_25nsV2_MC_Uncertainty_AK8PFchs.txt'),
-                                jerResName = cms.FileInPath('PhysObjectExtractorTool/PhysObjectExtractor/JEC/Fall15_25nsV2_MC_PtResolution_AK8PFchs.txt'),
-                                jerSFName = cms.FileInPath('PhysObjectExtractorTool/PhysObjectExtractor/JEC/Fall15_25nsV2_MC_SF_AK4PFchs.txt'), # AK8 == AK4
+                                jecL2Name = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_'+JecString+'_L2Relative_AK8PFchs.txt'),
+                                jecL3Name = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_'+JecString+'_L3Absolute_AK8PFchs.txt'),
+                                jecResName = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_DATA_L2L3Residual_AK8PFchs.txt'),
+                                jetJECUncName = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_MC_Uncertainty_AK8PFchs.txt'),
+                                jerResName = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_MC_PtResolution_AK8PFchs.txt'),
+                                jerSFName = cms.FileInPath('jet-cloudhep-analysis/JEC/Fall15_25nsV2_MC_SF_AK4PFchs.txt'), # AK8 == AK4
                 )
 
 
