@@ -6,7 +6,7 @@
 
 ```cd MyJetAnalyzer```
 
-## Para correr el codigo
+## Para correr el código
 
 ```cmsenv```
 
@@ -17,6 +17,13 @@
 ```cmsRun MC_ConfFile_cfg.py outputFile=TreeFatjets.root```
 
 
+* Usar un archivo root de MC para correr el programa:
+
+```0634456A-08C2-E511-A0C1-001E6739722E.root```
+
+ubicado en el drive
+
+
 ## Para graficar
 
 Una vez obtenido el archivo root: ```TreeFatjets.root```
@@ -24,14 +31,6 @@ Una vez obtenido el archivo root: ```TreeFatjets.root```
 En la misma carpeta, ejecutar:
 
 ```root plot_Nsub.C```
-
-
-* Usar un archivo root de MC para correr el programa:
-
-```0634456A-08C2-E511-A0C1-001E6739722E.root```
-
-ubicado en el drive
-
 
 
 ## Tambien se puede usar este dataset para correr (TTbar)
