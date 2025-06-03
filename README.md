@@ -8,6 +8,8 @@
 
 ## Para correr el codigo
 
+```cmsenv```
+
 ```scram b```
 
 ```cd python```
