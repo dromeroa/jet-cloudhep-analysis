@@ -17,9 +17,11 @@
 
 ## Para graficar
 
-```root```
+Una vez obtenido el archivo root: ```TreeFatjets.root```
 
-```.L plot_Nsub.C```
+En la misma carpeta, ejecutar:
+
+```root plot_Nsub.C```
 
 
 * Usar un archivo root de MC para correr el programa:
@@ -30,6 +32,6 @@ ubicado en el drive
 
 
 
-## Usar este datset para correr 
+## Tambien se puede usar este dataset para correr (TTbar)
 
 ```https://opendata.cern.ch/record/19978```
