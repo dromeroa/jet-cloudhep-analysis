@@ -36,3 +36,9 @@ En la misma carpeta, ejecutar:
 ## Tambien se puede usar este dataset para correr (TTbar)
 
 ```https://opendata.cern.ch/record/19978```
+
+
+
+## Para copiar archivos desde mi espacio en la nube al Docker
+
+```docker cp /home/ubuntu/David/cms_open_data_work/CMSSW_7_6_7/src/jet-cloudhep-analysis/MyJetAnalyzer/python my_od:/code/CMSSW_7_6_7/src/jet-cloudhep-analysis/MyJetAnalyzer/python```
